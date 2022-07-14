@@ -1,0 +1,39 @@
+{
+  "display": {
+    "title": "Livehouse",
+    "description": "Livehouse",
+    "navmapThumbnail": "images/kingdome-logo.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "Yoo-Lee",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "45,-8", "46,-8"
+    ],
+    "base": "45,-8"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [],
+  "featureToggles": {}
+}
